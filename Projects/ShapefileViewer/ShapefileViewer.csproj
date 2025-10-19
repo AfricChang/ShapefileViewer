@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PlatformTarget>x86</PlatformTarget>
+    <RuntimeIdentifier>win-x86</RuntimeIdentifier>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>ShapefileViewer</AssemblyName>
+    <RootNamespace>ShapefileViewer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotSpatial.Controls" Version="4.0.656" />
+    <PackageReference Include="DotSpatial.Data" Version="4.0.656" />
+    <PackageReference Include="DotSpatial.Projections" Version="4.0.656" />
+    <PackageReference Include="DotSpatial.Symbology" Version="4.0.656" />
+  </ItemGroup>
+</Project>
