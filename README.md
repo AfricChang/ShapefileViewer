@@ -23,8 +23,6 @@
 ## 目录
 ```
 Root/
-├─ Docs/
-│  └─ 任务文档.md
 ├─ Projects/
 │  └─ ShapefileViewer/
 │     ├─ ShapefileViewer.csproj
